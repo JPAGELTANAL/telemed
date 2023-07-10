@@ -11,7 +11,8 @@
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
     "build": "quasar build",
-    "new:layout": "quasar new layout"
+    "new:layout": "quasar new layout",
+    "new:page": "quasar new page"
   },
   "dependencies": {
     "axios": "^1.2.1",
