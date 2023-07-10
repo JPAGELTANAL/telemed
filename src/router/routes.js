@@ -12,7 +12,7 @@ const routes = [
   },
   {
     path: "/auth",
-    component: () => import("layouts/GuestLayout.vue"),
+    component: () => import("layouts/MainLayout.vue"),
     children: [
       { path: "patients", component: () => import("pages/PatientsPage.vue") },
       {

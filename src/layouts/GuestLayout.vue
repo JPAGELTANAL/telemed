@@ -11,12 +11,8 @@
       </q-toolbar>
 
       <q-tabs align="left">
-        <q-route-tab to="/auth/appointments" label="Appointments" />
-        <q-route-tab to="/auth/patients" label="Patients" />
-        <q-route-tab to="/auth/consultations" label="Consultations" />
-        <q-route-tab to="/auth/chats" label="Chats" />
-        <q-route-tab to="/guest/register" label="Registration" />
         <q-route-tab to="/guest/" label="Login" />
+        <q-route-tab to="/guest/register" label="Registration" />
       </q-tabs>
     </q-header>
 
