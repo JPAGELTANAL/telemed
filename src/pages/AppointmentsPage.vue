@@ -1,9 +1,11 @@
 <template>
-  <q-page padding> Appointments Page </q-page>
+  <q-page padding>
+    AppointmentsPage
+  </q-page>
 </template>
 
 <script>
 export default {
   // name: 'PageName',
-};
+}
 </script>

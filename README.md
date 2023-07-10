@@ -1,4 +1,4 @@
-# Quasar App (quasar-project)
+# Quasar App (ghitap-quasar-app)
 
 A Quasar Project
 

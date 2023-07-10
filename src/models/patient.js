@@ -1,5 +1,5 @@
-import { QInput, QSelect } from "quasar";
-import { createInputFields } from "models/functions";
+import { QInput, QSelect } from 'quasar'
+import { createInputFields } from "./functions";
 
 const model = [
   {
@@ -31,10 +31,10 @@ const model = [
     model: "suffix_name",
     attrs: {
       label: "Suffix Name",
-      options: ["Jr.", "Sr.", "I", "II"],
+      options: ['Jr.', 'Sr.', 'I', 'II'],
     },
     col: 6,
-  },
+  }
 ];
 
-const createFields = createInputFields(model);
+export const createFields = () => createInputFields(model)

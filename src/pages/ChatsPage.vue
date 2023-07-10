@@ -1,9 +1,11 @@
 <template>
-  <q-page padding> Chats Page </q-page>
+  <q-page padding>
+    ChatsPage
+  </q-page>
 </template>
 
 <script>
 export default {
   // name: 'PageName',
-};
+}
 </script>
