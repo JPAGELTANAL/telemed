@@ -3,7 +3,10 @@ const routes = [
     path: "/guest",
     component: () => import("layouts/GuestLayout.vue"),
     children: [
-      { path: "", component: () => import("pages/LoginPage.vue") },
+      {
+        path: "",
+        component: () => import("pages/LoginPage.vue"),
+      },
       {
         path: "register",
         component: () => import("pages/RegistrationPage.vue"),
@@ -14,16 +17,26 @@ const routes = [
     path: "/auth",
     component: () => import("layouts/MainLayout.vue"),
     children: [
-      { path: "patients", component: () => import("pages/PatientsPage.vue") },
+      {
+        path: "patients",
+        component: () => import("pages/patients/IndexPage.vue"),
+        name: "Patients",
+      },
       {
         path: "appointments",
         component: () => import("pages/AppointmentsPage.vue"),
+        name: "Appointments",
       },
       {
         path: "consultations",
         component: () => import("pages/ConsultationsPage.vue"),
+        name: "Consultations",
       },
-      { path: "chats", component: () => import("pages/ChatsPage.vue") },
+      {
+        path: "chats",
+        component: () => import("pages/ChatsPage.vue"),
+        name: "Chats",
+      },
     ],
   },
 
