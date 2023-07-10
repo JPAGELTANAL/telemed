@@ -1,20 +1,15 @@
-<template>
-  <q-layout view="hHh lpR fFf">
+<script setup>
+import MainHeader from "components/MainHeader.vue";
+</script>
 
-    <q-header elevated class="bg-primary text-white">
-      <q-toolbar>
-        <q-toolbar-title>
-          <q-avatar>
-            <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
-          </q-avatar>
-          Title
-        </q-toolbar-title>
-      </q-toolbar>
+<template>
+  <q-layout view="hHh Lpr fFf">
+    <q-header bordered class="doc-header header-toolbar doc-brand">
+      <MainHeader />
     </q-header>
 
-    <q-page-container>
+    <q-page-container class="doc-technical">
       <router-view />
     </q-page-container>
-
   </q-layout>
 </template>
